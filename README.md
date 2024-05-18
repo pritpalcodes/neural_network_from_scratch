@@ -81,3 +81,7 @@ W1, b1, W2, b2 = gradient_descent(X_train, Y_train, 0.10, 500)
 dev_predictions = make_predictions(X_dev, W1, b1, W2, b2)
 accuracy = get_accuracy(dev_predictions, Y_dev)
 print(f'Development Set Accuracy: {accuracy * 100}%')
+```
+![image](https://github.com/pritpalcodes/neural_network_from_scratch/assets/90276050/0289292d-6d23-49d2-97fd-6d48ecb9b8e1)
+![image](https://github.com/pritpalcodes/neural_network_from_scratch/assets/90276050/e92669f9-a9c2-4d9e-91d5-b9582a2f606a)
+
